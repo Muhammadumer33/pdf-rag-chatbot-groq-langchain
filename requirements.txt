@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.32.0
+python-dotenv>=1.0.0
+
+# LangChain and Groq
+langchain>=0.1.16
+langchain-community>=0.0.30
+langchain-groq>=0.0.2
+langchain-core>=0.1.42
+
+# Vector store
+chromadb>=0.4.24
+
+# Embeddings
+sentence-transformers>=2.2.2
+transformers>=4.40.0
+huggingface-hub>=0.22.2
+
+# PDF parsing
+pypdf>=3.10.0
+
+# Extras
+streamlit-extras>=0.3.6
+
+# Optional (for Windows to avoid tokenizers warning)
+tokenizers>=0.15.0
+
+# To avoid SSL issues or CLI warnings
+urllib3<2
